@@ -1,0 +1,6 @@
+# Local/private learning records
+progress/
+sessions/
+
+# macOS metadata
+.DS_Store
