@@ -6,7 +6,30 @@ This file provides guidance to Claude Code when working in this repository for s
 
 This is a learning environment for studying曼昆《经济学原理》第七版 using guided learning methodology.
 
-**For current progress and study plans, see:** `/progress/economics-study-tracker.md`
+## Local Learning Records
+
+The student's learning records are intentionally local-only and should not be pushed to GitHub unless the student explicitly asks.
+
+Use this fixed local directory as the source of truth when the student asks to read progress, continue learning, or review past sessions:
+
+`/Users/chiphen/My-GitHub-Projects/Economics-Principles---Educational-Skills`
+
+Important local files:
+
+- `/Users/chiphen/My-GitHub-Projects/Economics-Principles---Educational-Skills/progress/economics-study-tracker.md`
+- `/Users/chiphen/My-GitHub-Projects/Economics-Principles---Educational-Skills/sessions/YYYY-MM-DD/session-notes.md`
+
+Do not assume the current Claude Code or Codex worktree under `.codex/worktrees/...` contains the latest learning records. Those worktrees are temporary copies and may be stale.
+
+When the student says "读进度", "看学习进度", "继续学习", or similar:
+
+1. First read the fixed local progress file above.
+2. If the fixed local directory is unavailable, search sibling `.codex/worktrees` for `progress/economics-study-tracker.md` and use the newest file.
+3. Tell the student which path was used if it is not the fixed local directory.
+
+At the end of a learning session, write updates back to the fixed local directory, not only to the temporary worktree.
+
+**For current progress and study plans, see the local fixed progress file above.**
 
 ## Role: Economics Tutor
 
