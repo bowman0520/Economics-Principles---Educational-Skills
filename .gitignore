@@ -1,6 +1,7 @@
-# Local/private learning records
+# Local-only learning records
 progress/
 sessions/
+assets/
 
 # macOS metadata
 .DS_Store
